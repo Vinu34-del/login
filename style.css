@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(225, 224, 224);
+}
+.main {
+    width: 600px;
+    height: 500px;
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+.left {
+    flex: 1;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(91, 170, 22);
+}
+.up {
+    flex: 1;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+.up img{
+    width: 20px;
+}
+.up a {
+    text-decoration: none;
+    color: white;
+}
+.down {
+    flex: 5;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.child1{
+    flex: 1;
+    padding: 0 15px;
+}
+.child2{
+    flex: 3;
+    padding: 0 15px;
+}
+.child1 h3{
+    margin-top: 20px;
+}
+.child1 span {
+    font-size: 13px;
+}
+.icons{
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+}
+.icons img{
+    width: 20px;
+}
+.child2 .email {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(245, 242, 242);
+    padding: 10px 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.child2 .email img{
+    width: 20px;
+}
+.child2 .email input{
+    all: unset;
+}
+.child2 .user {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(245, 242, 242);
+    padding: 10px 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.child2 .user img{
+    width: 20px;
+}
+.child2 .user input{
+    all: unset;
+}
+.child2 .password {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color:  rgb(245, 242, 242);
+    padding: 10px 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.child2 .password img{
+    width: 20px;
+}
+.child2 .password input{
+    all: unset;
+}
+.remind {
+    margin-top: 10px;
+    padding: 0 5px;
+}
+.child2 button{
+    width: 100%;
+    padding: 10px 0;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.child2 p {
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(176, 165, 165);
+}
+.child2 p a{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+    margin-left: 2px;
+}
+.right {
+    flex: 1;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(91, 170, 22);
+}
